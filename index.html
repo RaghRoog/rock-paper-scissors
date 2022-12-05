@@ -8,35 +8,20 @@
     </head>
 
     <body>
-        <div class="points-container">
-            <div class="points">
-                <div class="playerPointsDisplay"></div>
-                <div class="cpuPointsDisplay"></div>
-            </div>         
-            <div class="who">
-                <p class="you">You</p>
-                <p class="cpu">CPU</p>
+        <div id="container">
+            <div class="points-container">
+                <p>You <span class="playerPointsDisplay">0</span></p>
+                <p>CPU <span class="cpuPointsDisplay">0</span></p>
             </div>
-        </div>
             <p class="computer-selected"></p>
             <p class="round-result"></p>
-        <div class="center-container">
-         <div class="center">            
             <div class="images">
-                    <img class="rock-image" src="rock.jpg" alt="rock">
-                    <img class="paper-image" src="paper.jpg" alt="paper">
-                    <img class="scissors-image" src="scissors.jpg" alt="scissors">
-                </div>
-                <div class="buttons">
-             <button class="rock">Rock</button>
-             <button class="paper">Paper</button>
-             <button class="scissors">Scissors</button>    
-            </div>  
-            <div class="prb">
-                <button class="playRoundButton">Play next round</button>
+                <img id="rock" src="rock.jpg" alt="rock">
+                <img id="paper" src="paper.jpg" alt="paper">
+                <img id="scissors" src="scissors.jpg" alt="scissors">
             </div>
-         </div>
+            <div class="result"></div>
+            <button class="new-game">Start new game</button>
         </div>
-        <div class="result"></div>
     </body>
 </html>
